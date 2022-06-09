@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="N11 Test Suite" >
+    <listeners>
+        <listener class-name="utils.ReporterListener"/>
+    </listeners>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.training.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="SearchTest">
+        <classes>
+            <class name="tests.training.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="NavigationTest">
+        <classes>
+            <class name="tests.training.NavigationTest"/>
+        </classes>
+    </test>
+</suite>
